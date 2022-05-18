@@ -1,4 +1,7 @@
 
 
-<label>name</label>
-<input type="text" appCustomdirective [defaultvalue]=value>
+<label>EnterName :</label>&nbsp;
+<input  list="browsers" type="text" appCustomdirective [defaultvalue]=value [(ngModel)]="value" autocomplete="off">
+<datalist id="browsers" *ngFor="let val of names">
+    <option value={{val.name}}>
+</datalist>

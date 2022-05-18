@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CustomserviceService } from '../customservice.service';
 
 @Component({
   selector: 'app-customcomponet',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./customcomponet.component.css']
 })
 export class CustomcomponetComponent implements OnInit {
-  value =1
-  constructor() { }
+  value:string=""
+  names:any
+  constructor(private ser:CustomserviceService) { }
 
   ngOnInit(): void {
+    this.ser.getName().subscribe((val)=>{this.names=val.text,console.log(val.text)})
   }
 
 }

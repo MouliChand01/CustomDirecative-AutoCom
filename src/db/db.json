@@ -1,5 +1,32 @@
-{"userList1":[  
-    {"name":"Shyam", "email":"shyamjaiswal@gmail.com"},  
-    {"name":"Bob", "email":"bob32@gmail.com"},  
-    {"name":"Jai", "email":"jai87@gmail.com"}  
-]}  
+{
+    "userList1": [
+        {
+            "name": "Shyam",
+            "email": "shyamjaiswal@gmail.com"
+        },
+        {
+            "name": "Bob",
+            "email": "bob32@gmail.com"
+        },
+        {
+            "name": "Jai",
+            "email": "jai87@gmail.com"
+        },
+        {
+            "name": "mouli",
+            "email": "jai87@gmail.com"
+        },
+        {
+            "name": "vinay",
+            "email": "jai87@gmail.com"
+        },
+        {
+            "name": "suresh",
+            "email": "jai87@gmail.com"
+        },
+        {
+            "name": "srinu",
+            "email": "jai87@gmail.com"
+        }
+    ]
+}
