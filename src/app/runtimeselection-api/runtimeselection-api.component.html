@@ -1,0 +1,40 @@
+<h1>BY RUN TIME USER SELECT THE API AND TO GET THE API DATA & ADDING NEW KEY-VALUE FOR SELECTED URL</h1>
+<label for="demo">Select Any Urls : </label>
+<select id="demo" (change)="selected($event)" [(ngModel)]="indexval">
+    <option selected disabled> ---------- select -------- </option>
+    <option *ngFor="let url of myurls">{{url}}</option>
+</select>&nbsp;
+<button (click)="sendNewData()">ADD</button>
+
+<br><br>
+<div *ngIf="div1">
+    <label for="age">Age : </label>
+    <input type="tel" id="age" [(ngModel)]="age">
+</div>
+<div *ngIf="div2">
+    <label for="email">Email : </label>
+    <input type="email" id="email" [(ngModel)]="email">
+</div>
+<div *ngIf="div3">
+    <label for="phone">Mobile Number : </label>
+    <input type="tel" id="phone" [(ngModel)]="mobileNumber">
+</div>
+
+<br><br>
+<table border="3">
+    <thead>
+        <td>EmployeeId</td>
+        <td>EmployeeName</td>
+        <td>EmployeeLoc</td>
+        <td>Qualfication</td>
+        <td *ngIf="div1">EmployeeAge</td>
+        <td *ngIf="div2">EmployeeEmail</td>
+        <td *ngIf="div3">MobileNumber</td>
+    </thead>
+    <tr *ngFor="let data of empData">
+        <td>{{data.id}}</td>
+        <td>{{data.name}}</td>
+        <td>{{data.jobLocation}}</td>
+        <td>{{data.Qul}}</td>
+    </tr>
+</table>

@@ -1,5 +1,5 @@
 {
-    "userList1": [
+    "userList": [
         {
             "name": "Shyam",
             "email": "shyamjaiswal@gmail.com"
@@ -17,6 +17,14 @@
             "email": "jai87@gmail.com"
         },
         {
+            "name": "mouli lucky",
+            "email": "jai87@gmail.com"
+        },
+        {
+            "name": "mouli Chand",
+            "email": "jai87@gmail.com"
+        },
+        {
             "name": "vinay",
             "email": "jai87@gmail.com"
         },
@@ -25,8 +33,59 @@
             "email": "jai87@gmail.com"
         },
         {
+            "name": "surederaVarama",
+            "email": "jai87@gmail.com"
+        },
+        {
             "name": "srinu",
             "email": "jai87@gmail.com"
+        },
+        {
+            "name": "saiKrishna",
+            "email": "jai87@gmail.com"
+        }
+    ],
+    "userData1":[
+        {
+            "id":1,
+            "name":"Mouli Ramadasu",
+            "jobLocation":"Hyd",
+            "Qul":"M.C.A"
+        },
+        {
+            "id":2,
+            "name":"Raju Sidamsatty",
+            "jobLocation":"Hyd",
+            "Qul":"M.C.A"
+        }
+    ],
+    "userData2":[
+        {
+            "id":3,
+            "name":"saiKrishna",
+            "jobLocation":"Hyd",
+            "Qul":"M.C.A"
+        },
+        {
+            "id":4,
+            "name":"Siva SaiKumar",
+            "jobLocation":"Hyd",
+            "Qul":"M.C.A"
+        }
+    ],
+    "userData3":[
+        {
+            "id":5,
+            "name":"SirnuVasu",
+            "jobLocation":"Hyd",
+            "Qul":"M.C.A"
+        },
+        {
+            "id":6,
+            "name":"SithaMaha lakshmi",
+            "jobLocation":"Hyd",
+            "Qul":"M.C.A"
         }
     ]
+
 }

@@ -12,7 +12,7 @@ export class CustomcomponetComponent implements OnInit {
   constructor(private ser:CustomserviceService) { }
 
   ngOnInit(): void {
-    this.ser.getName().subscribe((val)=>{this.names=val.text,console.log(val.text)})
+    this.ser.getName().subscribe((val)=>this.names=val.text);
   }
 
 }

@@ -1,7 +1,8 @@
 
-
+<h1>CUSTOM DIRECTIVE FOR MORETHEN THREE LATERS</h1>
 <label>EnterName :</label>&nbsp;
 <input  list="browsers" type="text" appCustomdirective [defaultvalue]=value [(ngModel)]="value" autocomplete="off">
-<datalist id="browsers" *ngFor="let val of names">
-    <option value={{val.name}}>
+<datalist id="browsers">
+    <option *ngFor="let val of names" value={{val.name}}>
 </datalist>
+<h3>selected name is : {{value}}</h3>
